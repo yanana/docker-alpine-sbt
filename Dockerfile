@@ -13,3 +13,5 @@ RUN \
   /usr/local/lib/sbt/bin/sbt update
 
 ENV PATH $PATH:/usr/local/lib/sbt/bin
+
+ENTRYPOINT ["sbt"]

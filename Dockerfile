@@ -14,4 +14,4 @@ RUN \
 
 ENV PATH $PATH:/usr/local/lib/sbt/bin
 
-ENTRYPOINT ["sbt"]
+ENTRYPOINT ["sbt", "-no-colors"]

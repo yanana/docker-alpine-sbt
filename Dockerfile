@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-oraclejdk8
 
-ENV SBT_VERSION 1.0.0-M5
+ENV SBT_VERSION 0.13.15
 ENV SCALA_VERSION 2.12.2
 
 RUN \
